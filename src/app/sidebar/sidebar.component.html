@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    <li>
+      <a routerLink="" [class.activated]="currentUrl == '/'">
+<i class="material-icons">flash_on</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+<i class="material-icons">star</i>
+      </a>
+      <a routerLink="photos"  [class.activated]="currentUrl == '/photos'">
+<i class="material-icons">photo</i>
+      </a>
+    </li>
+  </ul>
+</nav>
